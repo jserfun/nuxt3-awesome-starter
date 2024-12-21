@@ -1,9 +1,9 @@
 import type { RouteLocationRaw } from 'vue-router'
-import { NuxtApp } from '#app'
-import {
+import type { NuxtApp } from '#app'
+import type {
   AwesomeLayoutPageNavbarMenu,
   AwesomeLayoutPageNavbarMenuDropdownItem,
-} from './types'
+} from './utils/types'
 
 export interface NuxtAwesomeAppConfig {
   /** title name */
@@ -77,7 +77,7 @@ declare module '@nuxt/schema' {
 
 export default defineAppConfig({
   awesome: {
-    name: 'Nuxt 3 Awesome Starter',
+    name: 'Nuxt 3 Awesome Starter 123',
     description:
       'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
     project: {

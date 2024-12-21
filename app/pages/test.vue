@@ -5,7 +5,7 @@ const identity = useIdentity()
 
 // compiler micro
 definePageMeta({ layout: 'page' })
-useHead({ title: 'Test Page' })
+useHead({ title: 'Test Page 123' })
 </script>
 
 <template>
